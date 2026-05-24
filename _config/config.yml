@@ -1,0 +1,11 @@
+---
+Name: google-indexing-config
+---
+
+# GoogleIndexingExtension is NOT applied globally.
+# Apply it only to DataObject classes that carry JobPosting or BroadcastEvent
+# schema markup. Example in your app/_config/config.yml:
+#
+#   App\Models\JobPosting:
+#     extensions:
+#       - Kraftausdruck\GoogleIndexing\Extensions\GoogleIndexingExtension

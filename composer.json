@@ -1,0 +1,17 @@
+{
+  "name": "lerni/silverstripe-google-indexing",
+  "type": "silverstripe-vendormodule",
+  "description": "Google Indexing API integration for Silverstripe CMS – for JobPosting and BroadcastEvent structured data",
+  "license": "BSD-3-Clause",
+  "require": {
+    "silverstripe/framework": "^6",
+    "google/auth": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kraftausdruck\\GoogleIndexing\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
